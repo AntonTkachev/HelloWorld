@@ -1,6 +1,6 @@
 import scala.collection.mutable.ListBuffer
 
-object P12 extends App {
+object ScalaTasks extends App {
 
   /**
     * P12 (**) Decode a run-length encoded list.
@@ -21,9 +21,6 @@ object P12 extends App {
   }
 
   decode(List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
-}
-
-object P14 extends App {
 
   /**
     * P14 (*) Duplicate the elements of a list.
@@ -43,9 +40,6 @@ object P14 extends App {
   }
 
   duplicate(List('a, 'b, 'c, 'c, 'd))
-}
-
-object P15 extends App {
 
   /**
     * P15 (**) Duplicate the elements of a list a given number of times.
@@ -54,5 +48,5 @@ object P15 extends App {
     * res0: List[Symbol] = List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
     **/
 
-  P14.duplicate(List('a, 'b, 'c, 'c, 'd), 3)
+  duplicate(List('a, 'b, 'c, 'c, 'd), 3)
 }
